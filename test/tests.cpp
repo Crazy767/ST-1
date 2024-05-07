@@ -62,8 +62,3 @@ TEST(SumPrimeTest, SumToFifty) {
 TEST(SumPrimeTest, SumToHundred) {
     EXPECT_EQ(sumPrime(100), 1060); // Сумма простых чисел до 100
 }
-
-int main(int argc, char **argv) {
-    ::testing::InitGoogleTest(&argc, argv);
-    return RUN_ALL_TESTS();
-}
